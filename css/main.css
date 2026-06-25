@@ -18,16 +18,28 @@ a{
 img{
     max-width: 100%;
 }
-.container{
-    width: auto;
-    margin: 0 auto;
-}
+
+.center {
+    width: 100%;
+    height: 100vh;           /* высота на весь экран */
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    text-align: center;
+
+ }
+
 .wrapper{
     background: linear-gradient(0deg,rgba(247, 223, 223, 1) 0%, rgba(237, 231, 209, 1) 100%);
     width: 100%;
 }
+
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+
 header {
-    padding: 50px 0;
+    padding: 15px 50px;
     background-color: rgb(204, 231, 231);
 }
 
@@ -41,6 +53,7 @@ header nav {
     float: right;
     width: 30%;
 }
+
 header nav ul{
     list-style: none;
     display: flex;
